@@ -1,0 +1,64 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+svg {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+
+.nav ul li a {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: "Roboto";
+  padding-bottom: 40px;
+  font-size: 95px;
+  padding-top: 30px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texts-p {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  font-size: 40px;
+  width: 881px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
